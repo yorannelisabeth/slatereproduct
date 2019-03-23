@@ -1,0 +1,65 @@
+.nav{
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+    background-color: #430320;
+    align-items:center;
+    
+}
+a{
+    color: white;
+    
+}
+.slate {font-size: 2.5rem;
+
+}
+.fr{
+    font-size: 1rem
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 16px;
+    font-size: 25px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:60%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #430320;
+    color: white;
+    border: 1.5px solid white
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #430320;
+    color: white;
+    border: 1.5px solid white
+  }
+  /* instagram*/
+  .fa-instagram{
+    background: #430320;
+    color: white;
+    border: 1.5px solid white
+  }
+/* youtube*/
+.fa-youtube{
+    background: #430320;
+    color: white;
+    border: 1.5px solid white
+  }
+ footer{
+     width: 100%;
+     padding: 0px;
+     margin:0px;
+ }

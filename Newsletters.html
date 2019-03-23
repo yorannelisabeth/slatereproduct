@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">  
+  <link rel="stylesheet" href="Newsletters.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="Navbar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="container-fluid">  
+    <header class="container-fluid col-12">
+            <nav class="navbar navbar-dark row col-12 headerstyle">
+                <button class="nav-item col-3 col-md-1 navbar-toggler expandbuton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="burgericon col-12 navbar-toggler-icon"> 
+                        <img class="icon" src="asset/menu.png" alt="">
+                    </div> 
+                </button>
+                <div class="tripletext row d-none d-md-flex col-md-3">
+                    <a class="nav-item nav-link " href="#"><p class="elemente">Magazine</p></a>
+                    <a class="nav-item nav-link " href="#"><p class="elemente">Podcast</p></a>
+                    <a class="nav-item nav-link " href="#"><p class="elemente">Grand Formats</p></a>
+                </div>
+                <a class="nav-item nav-link col-6 col-md-4" href="Accueil.html"><span class="Slate">Slate</span><span class="FR"><sup>FR</sup></span></a>
+                <a class="d-none d-md-flex col-md-1" href="">
+                <img class="lens" src="asset/lens.png" alt=""> 
+                </a>
+                <a href="">
+                <p class="korii d-none d-md-flex col-md-2">korii.</p>
+                </a>
+            </nav>
+        </header>
+
+    <div class="row col-12 page">
+        <!-- MENU navbar-collapse collapse -->
+        <nav class="container menu col-3 navbar navbar-collapse collapse" id="navbarNav">
+                <ul class="navbar-nav flex-column col-12 burgermenu">
+                    <a href="Accueil.html" class="button buttonmenu navitem">
+                        <span class="textmenu">Accueil</span>
+                    </a> 
+                    <a href="article.html" class="button buttonmenu navitem">
+                        <span class="textmenu">Tech-News</span>
+                    </a> 
+                    <a href="article.html" class="button buttonmenu navitem">
+                        <span class="textmenu">Economie</span>
+                    </a> 
+                    <a href="article.html" class="button buttonmenu navitem">
+                        <span class="textmenu">Politique</span>
+                    </a> 
+                    <a href="article.html" class="button buttonmenu navitem">
+                        <span class="textmenu">Culture</span>
+                    </a> 
+                    <a href="article.html" class="button buttonmenu navitem">
+                        <span class="textmenu">Social</span> 
+                    </a>   
+                    <a href="article.html" class="button buttonmenu navitem d-block d-sm-none">
+                        <span class="textmenu">Magazine</span> 
+                    </a>  
+                    <a href="article.html" class="button buttonmenu navitem d-block d-sm-none">
+                        <span class="textmenu">Podacast</span> 
+                    </a>  
+                    <a href="article.html" class="button buttonmenu navitem grdformat d-block d-sm-none">
+                        <span class="textmenu">Grand formats</span> 
+                    </a>  
+                </ul>    
+                </nav>
+        <div class="container col-9 margtop">
+            <div class="row news">
+                <p class="newslettertxt col-12">NEWSLETTERS</p>
+                <div class="col-10 col-md-3 opt" style="background-color: #2E0417;">
+                    <h2 class="titlenews">La quotidienne de Slate</h2>
+                    <p>Une sélection personalisée des articles de Slate tous les matins dans votre boite mail.</p>
+                    <span class="mail col-12">✉️ votre e-mail</span>
+                    <span class="abonnement col-12">S'abonner</span>
+                </div>
+                <div class="col-10 col-md-3 offset-md-1 opt" style="background-color: #2E0417">
+                    <h2 class="titlenews">Slate x Titiou</h2>
+                    <p>Tous les vendredis matin, l'humeur de Titou Lecoq et sa sélection du meilleur des internets.</p>
+                    <span class="mail col-12">✉️ votre e-mail</span>
+                    <span class="abonnement col-12">S'abonner</span>
+                </div>
+                <div class="col-10 col-md-3 offset-md-1 opt" style="background-color: #2E0417">
+                    <h2 class="titlenews">La kotiidienne<br>de <id style="color:#FFCC00">korii.</id></h2>
+                    <p>Retrouvez chaque matin le meilleur des articles de korii, le site biz et tech par Slate.</p>
+                    <span class="mail col-12">✉️ votre e-mail</span>
+                    <span class="abonnement col-12">S'abonner</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="bardenav">
+            <div class="container-fluid">
+                <ul class="nav row col-12">
+                    <li class="nav-ligne">
+                        <a class="nav-link active" href="#"><span class="slate"> Slate</span>
+                            <span class="fr"><sup>FR</sup></span></a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#">Slate.com</a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#">Slate Afrique</a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#">Qui sommes-nous</a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#">Mentions légales</a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#">Gestion des données personnelles</a>
+                    </li>
+                    <li class="nav-ligne">
+                        <a class="nav-link" href="#">Suivez-<br/>nous:</a>
+
+                    </li>
+                    <li class="reseausociaux">
+                        
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+ <!-- Scripts -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

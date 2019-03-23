@@ -1,0 +1,75 @@
+@media screen and (min-width: 1300px){
+	.Slate{
+		color: #430320;
+		font-weight: bold;
+		font-size: 6rem;
+	}
+
+}
+@media screen and (max-width: 1300px){
+
+	.Slate{
+		color: #430320;
+		font-weight: bold;
+		font-size: 6rem;
+	}
+}
+@media screen and (max-width: 1000px){
+	.Slate{
+		color: #430320;
+		font-weight: bold;
+		font-size: 10vw;
+	}
+}
+
+
+
+.FR{
+	font-size: 1vw;
+	color: #430320;
+}
+
+.headerstyle{
+	background-color: #FFF0F5;
+	border-top: 8px solid #430320;
+	border-bottom: 1px solid lightgrey;
+}
+
+/*body{
+	background-color: #FFF0F5;
+}
+*/
+.elemente{
+	color: #430320;
+	font-weight: bold;
+	font-size: 1.2rem;
+	display: inline;
+
+}
+.enveloppe{
+	width: 16%;
+	display: inline;
+}
+.lens{
+	width: 20%;
+	display: inline;
+}
+
+.enveloppe{
+	margin-left: 10px;
+}
+.burgericon{
+	width: 100px;
+	height: 100%;
+}
+.korii{
+	font-weight: bold;
+	font-size: 2.5vw;
+	color: orange;
+	display: inline;
+}
+
+
+
+
+

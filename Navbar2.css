@@ -1,0 +1,54 @@
+
+.Slate{
+	color: darkred;
+	font-weight: bold;
+	font-size: 6vw;
+}
+
+.FR{
+	font-size: 1vw;
+	color: darkred;
+
+}
+
+.headerstyle{
+	background-color: #FFF0F5;
+	border-top: 8px solid darkred;
+	border-bottom: 1px solid lightgrey;
+}
+
+.elemente{
+  margin-top: 40px; 
+  color: darkred;
+  font-weight: bold;
+  font-size: 1.5vw;
+
+
+}
+
+.enveloppe, .lens,.menum{
+	max-width: 5vw;
+	max-height: 3vw;
+	margin-top: 40px;
+
+}
+
+.enveloppe{
+	margin-left: 10px;
+}
+
+.lens{
+	margin-left: 40px;
+}
+
+.korii{
+	margin-left: 50px;
+	margin-top: 35px;
+	font-weight: bold;
+	font-size: 3vw;
+	color: orange;
+}
+
+
+
+

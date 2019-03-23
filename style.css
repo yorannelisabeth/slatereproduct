@@ -1,0 +1,151 @@
+@media screen and (min-width: 1000px){
+    .menu .button{
+        height:3vw;
+        text-align: center;
+        font-size: 2vw;
+        color: white;
+        margin-top:2px;
+        vertical-align: middle;
+    }
+}
+@media screen and (max-width: 1000px){
+    .menu .button{
+        height:9vw;
+        text-align: center;
+        font-size: 4vw;
+        color: white;
+        margin-top:2px;
+        vertical-align: middle;
+    }
+    .grdformat{
+        height:12vw !important;
+    }
+}
+header{
+    top: 0;
+    left:0;
+    z-index:1;
+    bottom:0;
+    right:0;
+    height:100%;
+}
+.newsletter{
+    font-size: 3vw;
+}
+.menu{
+    border: 1px solid black;
+    padding:0;
+}
+
+.button:hover{
+    background: #880641;
+    text-shadow: black 3px 3px 10px ;
+    text-decoration: none !important;
+}
+nav ul a{
+    vertical-align: middle !important;
+}
+.textmenu{
+    font-family: 'comfortaa';
+    display: inline !important;
+}
+.button{ 
+    background: #430320;
+    padding:0px;
+    vertical-align: middle;
+}
+.car{
+    margin-top: 10%;
+    max-width: 150px;
+    border-radius: 15%;
+}
+.letter{
+    max-width: 230px;
+}
+.searchbar{
+    display:none;
+}
+
+.icon{
+    height:auto;
+    width: 100%;
+}
+section .preview{
+    margin: 3% !important;
+    background: rgba(0, 0, 0, 0.021);
+    padding: 2% !important;
+    color: black;
+}
+section .preview:hover{
+    background: rgba(0, 0, 0, 0.199);
+    text-decoration: none !important;
+    color: black;
+}
+/*.d50{
+    max-width: 250px;
+}*/
+.c50{
+    max-width: 150px;
+}
+.burgermenu{
+    position: absolute;
+    top:0;
+    bottom:auto;
+
+}
+ul{
+    padding: 0px !important;
+}
+.container-fluid{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.row{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+#navbarNav{
+    background: #430320;
+}
+.burger{
+    border:1px black solid;
+}
+.feed{
+    margin-top:50px;
+}
+.expandbuton{
+    height: calc(50px + 1vw);
+    vertical-align: top;
+}
+.home{
+    background-color: #fff0f3 ;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-left:10%;
+    padding-right: 10%
+}
+.bodymain{
+    background-color: #430320
+}
+.showmore{
+    border:5px black double;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'comfortaa';
+    text-align: center;
+    color: white;
+}
+.image{
+    border-radius:5%;
+    filter: contrast(70%);
+    margin: 0px;
+    height: auto;
+}
+section .preview:hover > .image{
+    border-radius:5%;
+    filter: contrast(110%);
+}
+.teubar{
+    border-bottom: solid black 2px;
+}

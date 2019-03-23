@@ -1,0 +1,58 @@
+body{
+    background-color: #430320;
+    font-family: 'GT-Walsheim-Medium';
+}
+
+.news{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+}
+.margtop{
+    margin-top: 100px;
+}
+.newslettertxt{
+    color: white;
+    font-size:6vw;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+h2{
+    font-weight: bold;
+
+}
+
+.opt{
+    padding-top: 5%;
+    padding-bottom: 2.5em;
+    margin-bottom: 15px;
+}
+
+.mail{
+    color:grey;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.abonnement{
+    color:white;
+    font-weight: bold
+}
+
+.mail .abonnement{
+    line-height: 6em;
+    font-size: 1.3em;
+}
+/*
+p{
+    font-size: 1.2em;
+}*/
+.page{
+    min-height: 900px;
+}
+.titlenews{
+    font-size:calc(1.5vw + 1rem);
+}
